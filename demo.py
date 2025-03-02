@@ -1,3 +1,6 @@
+!!!This code snippet documents the prior version of the implementation of speech omics representation!!!
+
+'''
 import os, shutil
 import numpy as np
 import pandas as pd
@@ -27,3 +30,4 @@ for th in tqdm(range(2, 10)):
         npd0, pddata = epo.get_ALL(pdl, spath=cpath + '\\4.SDRdata')
         epo.PCA(npd0, pddata, ppath=cpath + '\\5.PCAmodels')
     time.sleep
+'''
